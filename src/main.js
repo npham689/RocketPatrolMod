@@ -1,3 +1,5 @@
+// Name: Nelson Pham
+// Date: 04/14/2022
 let config = {
     type: Phaser.CANVAS,
     width: 640,
