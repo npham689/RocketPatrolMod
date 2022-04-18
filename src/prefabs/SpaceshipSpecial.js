@@ -4,6 +4,7 @@ class SpaceshipSpecial extends Spaceship {
     }
 
     update(){
+        // Call superclass update()
         super.update();
         // Move new Spaceship to the left
         this.x -= this.moveSpeed;
