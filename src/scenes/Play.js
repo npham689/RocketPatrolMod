@@ -53,7 +53,7 @@ class Play extends Phaser.Scene {
 
         //Adding two rockets for two playermode
         this.p1Rocket = new Rocket(this, game.config.width / 2, game.config.height - borderUISize - borderPadding, 'rocket', 0, true).setOrigin(0.5, 0);
-        this.p2Rocket = new Rocket(this, game.config.width / 2, game.config.height - borderUISize - borderPadding, 'rocket2', 0, false).setOrigin(0.5, 0);
+        this.p2Rocket = new Rocket(this, game.config.width / 3, game.config.height - borderUISize - borderPadding, 'rocket2', 0, false).setOrigin(0.5, 0);
 
         this.anims.create({
             key: 'moveship',

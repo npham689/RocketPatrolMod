@@ -3,6 +3,8 @@ Name: Nelson Pham
 Project: Rocket Patrol Modification
 Date: April 16, 2022
 Time taken: 15 Hours
+I just received help from the class discord for asking questions and reading answers
+on certain code commands in JavaScript and Phaser and clarify any modification ideas I had.
 
 Points BreakDown:
 (5) Add Background Music
