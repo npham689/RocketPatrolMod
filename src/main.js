@@ -2,7 +2,7 @@
 Name: Nelson Pham
 Project: Rocket Patrol Modification
 Date: April 16, 2022
-Time taken: 17 Hours
+Time taken: 15 Hours
 
 Points BreakDown:
 (5) Add Background Music
