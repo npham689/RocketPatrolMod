@@ -36,6 +36,7 @@ class Play extends Phaser.Scene {
 
         // Background music
         this.bgm = this.sound.add('bgm_Odyssey');
+        this.bgm.setLoop(true);
         this.bgm.play();
 
         this.gameStartTime = game.settings.gameTimer;
@@ -141,7 +142,6 @@ class Play extends Phaser.Scene {
     }
 
     update() {
-
         // 60 Second play clock
         this.timeLeft.text = Math.round(game.settings.gameTimer / 1000);
         if (game.settings.gameTimer <= 0) {
